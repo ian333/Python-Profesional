@@ -24,7 +24,7 @@ def run():
     repeat_5 = make_repeater_off(5)
     print(repeat_5("Hola"))
     repeat_10 = make_repeater_off(10)
-    print(repeat_10("Sebas"))
+    print(repeat_10("Platzi"))
 
     division_by_3 = make_division_by(3)
     assert division_by_3(15) == 5
