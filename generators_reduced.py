@@ -2,10 +2,10 @@ from time import sleep
 
 
 def fibo_gen(limit:int)-> int:
-    a, b = 0, 1
-    while a <limit:
-        yield a 
-        a, b = b, a+b
+    z, b = 0, 1
+    while z <limit:
+        yield z 
+        z, b = b, z+b
 
 if __name__ == "__main__":
     limit=int(input("""Ingrese el numero maximo hasta donde llegara la cuenta \n
