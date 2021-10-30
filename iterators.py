@@ -33,9 +33,9 @@ class FiboIter():
 
 
 if __name__ == "__main__":
-    fibonacci = FiboIter(900)
+    fibonacci = FiboIter(9000)
 
     for element in fibonacci:
         print(element)
-        sleep(1)
+        sleep(0.05)
     
