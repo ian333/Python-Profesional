@@ -17,7 +17,12 @@ def fibo_gen(limit:int) -> int:
             if aux > limit: break
             yield aux
 if __name__ == "__main__":
-    limit=int(input("Ingrese el numero maximo de la susecion: "))
+    try:
+     
+        limit=int(input("Ingrese el numero maximo de la susecion: "))
+
+    except ValueError as identifier:
+        print("Tienes que ingresar un numero entero")
     fibonacci=fibo_gen(limit)
     
 
