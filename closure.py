@@ -1,8 +1,8 @@
 # Hola 3 -> HolaHolaHola
 # Sebas 2 -> SebasSebas
 # Platzi 4 -> PlatziPlatziPlatziPlatzi
-
-def make_repeater_off(n):
+from typing import Generic ,TypeVar
+def make_repeater_off(n :int ):
     def repeater(string):
         assert type(string) == str, "Solo puedes utilizar cadenas"
         return string*n

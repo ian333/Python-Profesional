@@ -11,6 +11,6 @@ if __name__ == "__main__":
     mexico_date=datetime.now(mexico_timezone)
     print("CDMX: ",bogota_date.strftime("%d/%m/%Y , %H:%M;%S"))
 
-    caracas_timezone= pytz.timezone("America/Caracas")
-    caracas_date=datetime.now(caracas_timezone)
-    print("Bogota: ",caracas_date.strftime("%d/%m/%Y , %H:%M;%S"))
+    amsterdam_timezone= pytz.timezone("Europe/Amsterdam")
+    amsterdam_date=datetime.now(amsterdam_timezone)
+    print("Amsterdam: ",amsterdam_date.strftime("%d/%m/%Y , %H:%M;%S"))
